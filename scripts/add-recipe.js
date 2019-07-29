@@ -38,10 +38,10 @@ new Vue({
 				return response.json();
 			})
 			.then(function(data){
-				self.appertizers = data['content'][0]['recipeList'];
-				self.mainCourses = data['content'][1]['recipeList'];
-				self.desserts = data['content'][2]['recipeList'];
-				self.drinks = data['content'][3]['recipeList'];	
+				self.appertizers = data['content'][3]['recipeList'];
+				self.mainCourses = data['content'][0]['recipeList'];
+				self.desserts = data['content'][1]['recipeList'];
+				self.drinks = data['content'][2]['recipeList'];	
 			})
 		
 	},
