@@ -1142,7 +1142,6 @@ input.checkbox:checked + label:before {
 
 .footer-search{
 	position: fixed;
-	bottom: 0;
 	left: 0;
 	width: 100%;
 }
