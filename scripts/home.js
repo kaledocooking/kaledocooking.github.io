@@ -71,7 +71,7 @@ new Vue({
 				if( categoryName.indexOf(data['content'][i]['categoryName']) === -1 ){
 					categoryName.push(data['content'][i]['categoryName']);
 					self.categories.push(data['content'][i]);
-					// self.users.push(data['content'][i]);
+					self.users.push(data['content'][i]);
 				}
 				
 			}
