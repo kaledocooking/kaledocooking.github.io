@@ -29,7 +29,7 @@ new Vue({
 				self.recipes.push(data['content'][i]);
 			}	
 
-				
+			console.log(self.recipes)
 
 		})
 	},
