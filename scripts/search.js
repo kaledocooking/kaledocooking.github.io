@@ -31,6 +31,15 @@ new Vue({
 
 			console.log(data)
 		})
+	}, methods: {
+		viewRecipe: function(){
+
+			targetId = event.currentTarget.getAttribute('data-id');
+  			console.log(targetId);
+  			localStorage.setItem('idRecipe',targetId);
+  			window.location = 'view-recipe.html'
+
+		}
 	}
 
 })

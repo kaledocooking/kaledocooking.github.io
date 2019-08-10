@@ -104,7 +104,7 @@ new Vue({
 			var dessert = document.querySelectorAll('.Dessert');
 			var drinks = document.querySelectorAll('.Drinks');
 			
-			if(event.currentTarget.getAttribute('id') === 'dropdown-3'){
+			if(event.currentTarget.getAttribute('id') === 'dropdown-0'){
 				event.target.addEventListener('click', function(e){
 					for(var i = 0; i < appertizer.length; i++){
 						appertizer[i].classList.toggle('open');
@@ -112,7 +112,7 @@ new Vue({
 					}
 				});
 			}
-			else if(event.currentTarget.getAttribute('id') === 'dropdown-0'){
+			else if(event.currentTarget.getAttribute('id') === 'dropdown-1'){
 				event.target.addEventListener('click', function(e){
 					for(var i = 0; i < main.length; i++){
 						main[i].classList.toggle('open');
@@ -120,7 +120,7 @@ new Vue({
 					}
 				});
 			}
-			else if(event.currentTarget.getAttribute('id') === 'dropdown-1'){
+			else if(event.currentTarget.getAttribute('id') === 'dropdown-2'){
 				event.target.addEventListener('click', function(e){
 					for(var i = 0; i < dessert.length; i++){
 						dessert[i].classList.toggle('open');
@@ -128,7 +128,7 @@ new Vue({
 					}
 				});
 			}
-			else if(event.currentTarget.getAttribute('id') === 'dropdown-2'){
+			else if(event.currentTarget.getAttribute('id') === 'dropdown-3'){
 				event.target.addEventListener('click', function(e){
 					for(var i = 0; i < drinks.length; i++){
 						drinks[i].classList.toggle('open');

@@ -59,7 +59,7 @@
 
  	<section class="recipes-container">
  		<h4 class="search-result-opener">Your search result:</h4>
-		<div v-for="(recipe, index) in recipes" class="recipe-data">
+		<div v-for="(recipe, index) in recipes" class="recipe-data" v-on:click="viewRecipe($event)">
 			<img class="recipe-thumb" v-if="recipe.photos !== null" v-bind:src="recipe.photos">
 	 		<img class="recipe-thumb" v-if="recipe.photos === null" src="../assets/grey.jpg">	
 			<p class="recipe-title">{{ recipe.title }}</p>
